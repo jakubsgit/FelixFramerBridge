@@ -30,7 +30,7 @@ export const Button: React.FC<Props> = ({
       kind ? kind : ""
     }`}
   >
-    {text || children}
+    {text}
   </StyledButton>
 )
 
