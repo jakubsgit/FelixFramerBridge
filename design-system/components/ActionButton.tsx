@@ -5,15 +5,17 @@ export interface ActionButtonProps {
   active?: boolean;
   height: number;
   buttonText: string;
+  onClick?: () => void;
 }
 
 const ActionButton: React.SFC<ActionButtonProps> = ({
   active,
   buttonText,
   height,
+  onClick
 }) => {
   return (
-    <Button active={active} height={height}>
+    <Button active={active} height={height} onClick={() => onClick ? onClick() : {}}>
       <p>{buttonText}</p>
     </Button>
   );

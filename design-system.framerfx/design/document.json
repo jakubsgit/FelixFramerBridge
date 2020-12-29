@@ -14,69 +14,6 @@
             "children" : [
               {
                 "__class" : "CodeComponentNode",
-                "$control__color" : {
-                  "type" : "enum",
-                  "value" : "secondary"
-                },
-                "$control__disabled" : {
-                  "type" : "boolean",
-                  "value" : false
-                },
-                "$control__label" : {
-                  "type" : "string",
-                  "value" : "Felix Button"
-                },
-                "aspectRatio" : null,
-                "bottom" : 154,
-                "centerAnchorX" : 0.3406998158379374,
-                "centerAnchorY" : 0.7795758928571429,
-                "clip" : true,
-                "codeComponentIdentifier" : ".\/MainButton.tsx_FelixMainButton",
-                "codeComponentPackageVersion" : "1.97.0",
-                "codeOverrideEnabled" : false,
-                "constraintsLocked" : false,
-                "duplicatedFrom" : [
-                  "XgmbP91x4"
-                ],
-                "exportOptions" : [
-
-                ],
-                "fillColor" : "rgba(255,255,255,1)",
-                "fillEnabled" : false,
-                "fillImage" : null,
-                "fillImageOriginalName" : null,
-                "fillImagePixelHeight" : null,
-                "fillImagePixelWidth" : null,
-                "fillImageResize" : "fill",
-                "fillType" : "color",
-                "height" : 87,
-                "heightType" : 0,
-                "id" : "THQ0f50wr",
-                "intrinsicHeight" : null,
-                "intrinsicWidth" : null,
-                "left" : 65,
-                "locked" : false,
-                "name" : null,
-                "opacity" : 1,
-                "originalid" : null,
-                "parentid" : "sm3eleZFD",
-                "previewSettings" : null,
-                "radius" : 0,
-                "radiusBottomLeft" : 0,
-                "radiusBottomRight" : 0,
-                "radiusIsRelative" : false,
-                "radiusPerCorner" : false,
-                "radiusTopLeft" : 0,
-                "radiusTopRight" : 0,
-                "right" : null,
-                "rotation" : 0,
-                "top" : null,
-                "visible" : true,
-                "width" : 240,
-                "widthType" : 0
-              },
-              {
-                "__class" : "CodeComponentNode",
                 "$control__desc1" : {
                   "type" : "string",
                   "value" : "Wtorek, 24\/07\/20"
@@ -120,7 +57,7 @@
                 "aspectRatio" : null,
                 "bottom" : null,
                 "centerAnchorX" : 0.50092081031307556,
-                "centerAnchorY" : 0.11160714285714286,
+                "centerAnchorY" : 0.14732142857142858,
                 "clip" : true,
                 "codeComponentIdentifier" : ".\/FelixActionTile.tsx_FelixActionTile",
                 "codeComponentPackageVersion" : "1.97.0",
@@ -161,7 +98,7 @@
                 "radiusTopRight" : 0,
                 "right" : 56,
                 "rotation" : 0,
-                "top" : 44,
+                "top" : 76,
                 "visible" : true,
                 "width" : 430,
                 "widthType" : 0
@@ -211,7 +148,7 @@
                 "aspectRatio" : null,
                 "bottom" : null,
                 "centerAnchorX" : 0.50092081031307556,
-                "centerAnchorY" : 0.26004464285714285,
+                "centerAnchorY" : 0.3158482142857143,
                 "clip" : true,
                 "codeComponentIdentifier" : ".\/FelixActionTile.tsx_FelixActionTile",
                 "codeComponentPackageVersion" : "1.97.0",
@@ -253,7 +190,7 @@
                 "radiusTopRight" : 0,
                 "right" : 56,
                 "rotation" : 0,
-                "top" : 177,
+                "top" : 227,
                 "visible" : true,
                 "width" : 430,
                 "widthType" : 0
@@ -302,8 +239,8 @@
                 },
                 "aspectRatio" : null,
                 "bottom" : null,
-                "centerAnchorX" : 0.51565377532228363,
-                "centerAnchorY" : 0.42801339285714285,
+                "centerAnchorX" : 0.50092081031307556,
+                "centerAnchorY" : 0.47154017857142855,
                 "clip" : true,
                 "codeComponentIdentifier" : ".\/FelixActionTile.tsx_FelixActionTile",
                 "codeComponentPackageVersion" : "1.97.0",
@@ -328,7 +265,7 @@
                 "id" : "aume7zeHc",
                 "intrinsicHeight" : null,
                 "intrinsicWidth" : null,
-                "left" : 65,
+                "left" : 57,
                 "locked" : false,
                 "name" : null,
                 "opacity" : 1,
@@ -342,9 +279,9 @@
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
-                "right" : 48,
+                "right" : 56,
                 "rotation" : 0,
-                "top" : 319,
+                "top" : 358,
                 "visible" : true,
                 "width" : 430,
                 "widthType" : 0
@@ -392,9 +329,9 @@
                   "value" : 8
                 },
                 "aspectRatio" : null,
-                "bottom" : 271,
-                "centerAnchorX" : 0.50092081031307556,
-                "centerAnchorY" : 0.6155133928571429,
+                "bottom" : 211,
+                "centerAnchorX" : 0.51565377532228363,
+                "centerAnchorY" : 0.6824776785714286,
                 "clip" : true,
                 "codeComponentIdentifier" : ".\/FelixActionTile.tsx_FelixActionTile",
                 "codeComponentPackageVersion" : "1.97.0",
@@ -419,7 +356,7 @@
                 "id" : "ni5g89FI1",
                 "intrinsicHeight" : null,
                 "intrinsicWidth" : null,
-                "left" : 57,
+                "left" : 65,
                 "locked" : false,
                 "name" : null,
                 "opacity" : 1,
@@ -433,7 +370,7 @@
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
-                "right" : 56,
+                "right" : 48,
                 "rotation" : 0,
                 "top" : null,
                 "visible" : true,
@@ -448,7 +385,7 @@
                 },
                 "$control__iconSize" : {
                   "type" : "number",
-                  "value" : 40
+                  "value" : 100
                 },
                 "$control__onClick" : {
                   "type" : "eventhandler",
@@ -498,9 +435,9 @@
                   ]
                 },
                 "aspectRatio" : null,
-                "bottom" : 29,
+                "bottom" : 31,
                 "centerAnchorX" : 0.86556169429097607,
-                "centerAnchorY" : 0.9397321428571429,
+                "centerAnchorY" : 0.9375,
                 "clip" : true,
                 "codeComponentIdentifier" : ".\/FelixButton.tsx_FelixButton",
                 "codeComponentPackageVersion" : "1.97.0",
@@ -565,9 +502,9 @@
                   "value" : "Felix"
                 },
                 "aspectRatio" : null,
-                "bottom" : 72,
+                "bottom" : 102,
                 "centerAnchorX" : 0.24309392265193369,
-                "centerAnchorY" : 0.8950892857142857,
+                "centerAnchorY" : 0.8616071428571429,
                 "clip" : true,
                 "codeComponentIdentifier" : ".\/Button.tsx_Button",
                 "codeComponentPackageVersion" : "1.97.0",
@@ -611,6 +548,84 @@
                 "top" : null,
                 "visible" : true,
                 "width" : 134,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__appBarColor" : {
+                  "type" : "string",
+                  "value" : "white"
+                },
+                "$control__fontColor" : {
+                  "type" : "string",
+                  "value" : "#00D2AA"
+                },
+                "$control__height" : {
+                  "type" : "number",
+                  "value" : 15
+                },
+                "$control__menuIconSize" : {
+                  "type" : "number",
+                  "value" : 44
+                },
+                "$control__menuOptionText" : {
+                  "type" : "string",
+                  "value" : "logout"
+                },
+                "$control__menuTitleText" : {
+                  "type" : "string",
+                  "value" : "Felix"
+                },
+                "$control__onMenuClick" : {
+                  "type" : "eventhandler"
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.5,
+                "centerAnchorY" : 0.031808035714285712,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/MenuBar.tsx_FelixMenuBar",
+                "codeComponentPackageVersion" : "1.97.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "eE3T97SU6"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 57,
+                "heightType" : 0,
+                "id" : "QsYHi2T8i",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 0,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "sm3eleZFD",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : 0,
+                "rotation" : 0,
+                "top" : 0,
+                "visible" : true,
+                "width" : 543,
                 "widthType" : 0
               }
             ],
@@ -782,6 +797,129 @@
                 "top" : null,
                 "visible" : true,
                 "width" : 64,
+                "widthType" : 0
+              },
+              {
+                "__class" : "CodeComponentNode",
+                "$control__appBarColor" : {
+                  "type" : "string",
+                  "value" : "white"
+                },
+                "$control__fontColor" : {
+                  "type" : "string",
+                  "value" : "#00D2AA"
+                },
+                "$control__height" : {
+                  "type" : "number",
+                  "value" : 15
+                },
+                "$control__menuIconSize" : {
+                  "type" : "number",
+                  "value" : 44
+                },
+                "$control__menuOptionText" : {
+                  "type" : "string",
+                  "value" : "login"
+                },
+                "$control__menuTitleText" : {
+                  "type" : "string",
+                  "value" : "Felix"
+                },
+                "$control__onMenuClick" : {
+                  "type" : "eventhandler",
+                  "value" : [
+                    {
+                      "actionIdentifier" : "framer\/useNavigate",
+                      "controls" : {
+                        "animation" : {
+                          "type" : "transition",
+                          "value" : {
+                            "damping" : 60,
+                            "delay" : 0,
+                            "ease" : [
+                              0.44,
+                              0,
+                              0.56000000000000005,
+                              1
+                            ],
+                            "mass" : 1,
+                            "stiffness" : 500,
+                            "type" : "spring"
+                          }
+                        },
+                        "appearsFrom" : {
+                          "type" : "segmentedenum",
+                          "value" : "right"
+                        },
+                        "backdropColor" : {
+                          "type" : "color",
+                          "value" : "rgba(4,4,15,.4)"
+                        },
+                        "target" : {
+                          "type" : "componentinstance",
+                          "value" : "sm3eleZFD"
+                        },
+                        "transition" : {
+                          "type" : "enum",
+                          "value" : "magicMotion"
+                        },
+                        "type" : {
+                          "type" : "segmentedenum",
+                          "value" : "next"
+                        }
+                      },
+                      "identifier" : "01dc78b9-668f-4d7d-b9fc-57c040e029e2"
+                    }
+                  ]
+                },
+                "aspectRatio" : null,
+                "bottom" : null,
+                "centerAnchorX" : 0.5,
+                "centerAnchorY" : 0.031808035714285712,
+                "clip" : true,
+                "codeComponentIdentifier" : ".\/MenuBar.tsx_FelixMenuBar",
+                "codeComponentPackageVersion" : "1.97.0",
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "duplicatedFrom" : [
+                  "eE3T97SU6",
+                  "QsYHi2T8i"
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(255,255,255,1)",
+                "fillEnabled" : false,
+                "fillImage" : null,
+                "fillImageOriginalName" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 57,
+                "heightType" : 0,
+                "id" : "C_c4pD_uw",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
+                "left" : 0,
+                "locked" : false,
+                "name" : null,
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "ZVX_pIFWt",
+                "previewSettings" : null,
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : 0,
+                "rotation" : 0,
+                "top" : 0,
+                "visible" : true,
+                "width" : 582,
                 "widthType" : 0
               }
             ],

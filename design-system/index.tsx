@@ -4,4 +4,5 @@ export { Toggle, Props as ToggleProps } from "./components/Toggle"
 export { Tooltip, Props as TooltipProps } from "./components/Tooltip"
 export { FelixAddButton, Props as FelixAddButtonProps } from "./components/FelixAddButton"
 export { FelixButton, Props as FelixButtonProps } from "./components/FelixButton"
+export { MenuBar, Props as MenuBarProps} from "./components/menuBar"
 

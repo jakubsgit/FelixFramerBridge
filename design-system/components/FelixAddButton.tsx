@@ -45,7 +45,7 @@ const FelixSlider = withStyles({
 export class FelixAddButton extends React.Component<Props, State> {
   state = {
     isActionsOpened: false,
-    selectedDate: '2014-08-18T21:11:54',
+    selectedDate: "2014-08-18T21:11:54",
   };
 
   onActionsToggle = () => {
@@ -53,7 +53,7 @@ export class FelixAddButton extends React.Component<Props, State> {
   };
 
   handleDateChange = (date) => {
-    this.setState({selectedDate: date})
+    this.setState({ selectedDate: date });
   };
 
   render() {
@@ -114,14 +114,14 @@ export class FelixAddButton extends React.Component<Props, State> {
                 background: "#00D2AA",
                 zIndex: 10000,
               }}
-            >{addIcon(30)}</IconButton>
+            >
+              {addIcon(30)}
+            </IconButton>
           </ButtonContainer>
         </StyledButtonContainer>
         <Grid container direction="column">
           <Grid item sm={10}>
-            <ActionsContainer
-              isActionsOpened={this.state.isActionsOpened}
-            >
+            <ActionsContainer isActionsOpened={this.state.isActionsOpened}>
               <Grid
                 container
                 direction="column"
@@ -221,8 +221,21 @@ export class FelixAddButton extends React.Component<Props, State> {
                 </Grid>
                 <Grid item sm={4}>
                   <ButtonsContainer>
-                    <ActionButton height={46} buttonText="Dodaj" />
-                    <ActionButton active height={80} buttonText="Anuluj" />
+                    <ActionButton
+                      height={46}
+                      buttonText="Dodaj"
+                      onClick={() =>
+                        this.state.isActionsOpened ? this.onActionsToggle() : {}
+                      }
+                    />
+                    <ActionButton
+                      active
+                      height={80}
+                      buttonText="Anuluj"
+                      onClick={() =>
+                        this.state.isActionsOpened ? this.onActionsToggle() : {}
+                      }
+                    />
                   </ButtonsContainer>
                 </Grid>
               </Grid>

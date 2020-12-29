@@ -15,10 +15,9 @@
 		"@material-ui/core": "^4.11.2",
 		"styled-components": "^5.2.1"
 	},
-	"name": "",
+	"name": "@framer/2vmofqgw.felixresearch",
 	"author": "Jakub Antczak",
 	"framer": {
-		"displayName": "",
-		"id": "921468a8-360c-4171-b6c4-839f84ce2ea1"
+		"displayName": "FelixResearch"
 	}
 }
