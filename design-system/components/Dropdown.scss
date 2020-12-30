@@ -1,0 +1,279 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap");
+
+.input-wrapper {
+  padding-top: 32px;
+
+  p {
+    font-size: 0.8rem;
+    opacity: 0.6;
+    cursor: default;
+  }
+
+  h6 {
+    font-weight: 400;
+    font-family: "Roboto";
+  }
+
+  .container {
+    margin-left: 0px !important;
+  }
+
+  input {
+    margin-top: 8px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #b6b6b6;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    text-align: left !important;
+    padding-left: 12px;
+    box-shadow: none;
+    color: #999999 !important;
+
+    &:active,
+    &:focus {
+      color: #0b0dff !important;
+      outline: none;
+      border-color: #5759ff;
+    }
+  }
+
+  button {
+    margin-top: 8px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #b6b6b6;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 182px;
+    text-align: left !important;
+    padding-left: 12px;
+    box-shadow: none;
+    background-color: white;
+    border-radius: none;
+    color: #999999 !important;
+
+    &:active,
+    &:focus {
+      outline: none;
+      border-color: #5759ff !important;
+      background-color: white !important;
+
+      svg {
+        fill: #5759ff;
+
+        g {
+          fill: #5759ff !important;
+        }
+      }
+    }
+
+    &:hover {
+      outline: none;
+      border-color: #5759ff;
+      background-color: white;
+
+      svg {
+        fill: #5759ff;
+
+        g {
+          fill: #5759ff;
+        }
+      }
+    }
+  }
+
+  .add-icon {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+
+    div {
+      cursor: pointer;
+      color: #5759ff;
+
+      &:hover {
+        color: #0b0dff;
+      }
+    }
+
+    svg {
+      cursor: pointer;
+      fill: lighten(#0b0dff, 40%);
+
+      g {
+        fill: lighten(#0b0dff, 40%);
+      }
+
+      &:hover {
+        fill: #5759ff;
+
+        g {
+          fill: #5759ff;
+        }
+      }
+    }
+  }
+}
+
+.role-button {
+  svg {
+    position: absolute;
+    right: 0;
+    margin-top: -18px;
+    margin-right: 5px;
+  }
+  color: black !important;
+}
+
+.drop-toggle {
+  width: 100% !important;
+  padding: 6px 12px !important;
+}
+
+.dropdown-menu {
+  width: 100%;
+  max-width: 100% !important;
+  min-width: 100px !important;
+  border-radius: 0px !important;
+
+  .dropdown-item {
+    font-size: 13px !important;
+    padding: 0px 10px 0px 13px !important;
+  }
+}
+
+.dropdown-menu {
+  box-shadow: 2px 2px 11px 0 rgba(205, 203, 203, 0.5);
+  padding: 0 !important;
+  border: none !important;
+
+  .dropdown-item {
+    width: 100% !important;
+    outline: none !important;
+    height: 32px;
+    font-family: "Roboto";
+    font-size: 13px !important;
+    font-weight: 300 !important;
+    line-height: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 3px 0px;
+    padding-right: 10px !important;
+    padding-left: 0px;
+    border: none !important;
+
+    &:active {
+      color: rgba(87, 89, 255, 0.1) !important;
+    }
+
+    &:hover {
+      background-color: rgba(87, 89, 255, 0.1) !important;
+    }
+
+    svg {
+      width: 24px;
+      height: 24px;
+      margin: 0 8px;
+    }
+
+    img {
+      width: 16px;
+      height: 16px;
+      margin: 0 14px;
+    }
+
+    div {
+      max-width: 100%;
+      overflow: hidden;
+    }
+  }
+
+  .dropdown-item_disable {
+    width: 100% !important;
+    outline: none !important;
+    height: 32px;
+    opacity: 0.8;
+    color: rgba(87, 89, 255, 0.1);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300 !important;
+    line-height: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 3px 0px;
+    padding-right: 10px !important;
+    padding-left: 0px;
+    border: none !important;
+
+    svg {
+      path {
+        stroke: rgb(153, 153, 153) !important;
+      }
+
+      g {
+        path {
+          stroke: rgb(153, 153, 153) !important;
+        }
+      }
+    }
+
+    &:active {
+      color: rgba(0, 0, 0, 1) !important;
+    }
+
+    &:hover {
+      background-color: rgba(128, 128, 128, 0.1) !important;
+    }
+  }
+}
+
+.dropdown-button {
+  width: 190px;
+
+  button {
+    height: 31px;
+    text-align: left !important;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    color: #cccccc;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    background-color: white;
+    outline: none !important;
+
+    &:active,
+    &:focus {
+      border: 1px solid black;
+      outline: none !important;
+      background-color: white;
+      color: black !important;
+      box-shadow: none !important;
+
+      svg {
+        fill: #5759ff;
+
+        g {
+          fill: #5759ff !important;
+        }
+      }
+    }
+  }
+
+  .drop-toggle {
+    width: 100% !important;
+    padding: 6px 12px !important;
+  }
+
+  svg {
+    position: absolute;
+    right: 0;
+    top: 34px;
+    margin-right: 8px;
+  }
+}
