@@ -14,7 +14,7 @@ jobs:
         env:
           FRAMER_TOKEN: ${{ secrets.FRAMER_TOKEN }}
         with:
-          args: build design-system.framerfx
+          args: build design-system.framerfx --yes
 
       - name: Publish
         uses: framer/bridge@master
