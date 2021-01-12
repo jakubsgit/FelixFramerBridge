@@ -14,7 +14,7 @@ jobs:
         run: env FRAMER_TOKEN=${{ secrets.FRAMER_TOKEN }} npx framer-cli build ./design-system.framerfx
   publish:
     runs-on: ubuntu-latest
-    needs: job1
+    needs: build
     steps:
     - run: env FRAMER_TOKEN=${{ secrets.FRAMER_TOKEN }} npx framer-cli publish ./design-system.framerfx --public --yes
 
