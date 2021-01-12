@@ -6,6 +6,9 @@ name: Build and publish
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
     # Map a step output to a job output
     steps:
       - name: Install packages
