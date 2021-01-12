@@ -1,5 +1,5 @@
-import { Grid } from "@material-ui/core";
 import * as React from "react";
+import { Grid } from "@material-ui/core";
 import styled from "styled-components";
 import { IconButton } from "@material-ui/core";
 import Slider from "@material-ui/core/Slider";
