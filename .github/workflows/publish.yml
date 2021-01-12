@@ -4,21 +4,18 @@ on:
     branches: master
 name: Build and publish
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    # Map a step output to a job output
+    steps:
+      - name: Install packages
+        run: npm install
+      - name: build project
+        run: env FRAMER_TOKEN=${{ secrets.FRAMER_TOKEN }} npx framer-cli build ./design-system.framerfx
   publish:
     runs-on: ubuntu-latest
+    needs: job1
     steps:
-      - uses: actions/checkout@master
+    - run: env FRAMER_TOKEN=${{ secrets.FRAMER_TOKEN }} npx framer-cli publish ./design-system.framerfx --public --yes
 
-      - name: Build
-        uses: framer/bridge@master
-        env:
-          FRAMER_TOKEN: ${{ secrets.FRAMER_TOKEN }}
-        with:
-          args: build design-system.framerfx --yes
 
-      - name: Publish
-        uses: framer/bridge@master
-        env:
-          FRAMER_TOKEN: ${{ secrets.FRAMER_TOKEN }}
-        with:
-          args: publish design-system.framerfx --yes
