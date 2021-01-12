@@ -1,7 +1,7 @@
 {
   "name": "design-system",
   "version": "0.0.1",
-  "description": "",
+  "description": "Framer Bridge is a suite of tools:",
   "main": "index.js",
   "keywords": [
     "design system",
@@ -22,5 +22,17 @@
     "reactstrap": "^8.8.1",
     "styled-components": "^4.2.0",
     "typescript": "^3.4.3"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakubsgit/FelixFramerBridge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jakubsgit/FelixFramerBridge/issues"
+  },
+  "homepage": "https://github.com/jakubsgit/FelixFramerBridge#readme"
 }
